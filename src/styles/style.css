@@ -1,0 +1,24 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.general-info,
+.educational-experience,
+.practical-experience {
+  /**#border: 10px solid #ccc;**/
+  display: inline;
+}
+
+.general-info label,
+.educational-experience label,
+.practical-experience label {
+  display: block;
+}
+
+.general-info input,
+.educational-experience input,
+.practical-experience input {
+  text-align: center;
+}
